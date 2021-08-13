@@ -188,7 +188,7 @@ descale() {
   done < $csvfile
 
   msg "All resources have been scaled to ${RED}zero${NOFORMAT}."
-  msg "Replica values are stored in ${csvfile}"
+  msg "Previous replica values are stored in ${csvfile}"
   msg "In case you need to rescale, use: k8s-scale.sh --csvfile ${csvfile} rescale"
 }
 
