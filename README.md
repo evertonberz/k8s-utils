@@ -3,7 +3,7 @@
 ## k8s-scale.sh example:
 
 ```
-eberz@sgbd-devops:~ $ k8s-scale.sh -h
+evertonberz@tromso:~ $ k8s-scale.sh -h
 k8s-scale v0.1
 Usage: /usr/local/bin/k8s-scale.sh [-c|--csvfile <arg>] [-h|--help] <command> [<namespaces-1>] ... [<namespaces-n>] ...
         <command>: descale or rescale
